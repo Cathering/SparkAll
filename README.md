@@ -49,10 +49,12 @@ In the spirit of the open source philosophy, we encourage the community at large
 - Fork the master branch of the project.
 - Implement your features and code (ensure you are following the [code guide](http://msdn.microsoft.com/en-us/library/vstudio/ff926074.aspx)).
 - Test.
-- Create a new pull request for the code to be reviewed. 
+- Create a new pull request for the code to be reviewed.
 
-Please do not contribute code that you do not own and if you must use another's code - please ensure that it has been released under an [appropriate license](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses).
-
+### Notices
+- Please do not contribute code that you do not own and if you must use another's code - please ensure that it has been released under an [appropriate license](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses).
+- All code, comments and lingual contributions must be written in **English (US)** and not your own dialect of English e.g. color (US version) not colour (UK version).
+ 
 ## Contributors
 - Cathering - primary author of Spark All
 - Aru - primary author of Spark IV
