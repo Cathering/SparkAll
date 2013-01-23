@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SparkAll>
+  <Viewers>
+    <Viewer Extension="dat,txt,ide,ipl,ped,cmb,csv,ini,list,dcl,sps" Type="SparkAll.Viewer.TextViewer, SparkAll" />
+    <Viewer Extension="xml" Type="SparkAll.Viewer.Xml.XmlViewer, SparkAll" />
+    <Viewer Extension="sco" Type="SparkAll.Viewer.Script.ScriptViewer, SparkAll" />
+    <Viewer Extension="wtd" Type="SparkAll.Viewer.Textures.TextureViewer, SparkAll" />
+    <Viewer Extension="wdr" Type="SparkAll.Viewer.Models.ModelViewer, SparkAll" />
+    <Viewer Extension="wdd" Type="SparkAll.Viewer.Models.ModelDictionaryViewer, SparkAll" />
+    <Viewer Extension="wft" Type="SparkAll.Viewer.Models.ModelFragTypeViewer, SparkAll" />
+    <Viewer Extension="whm" Type="SparkAll.Viewer.HyperText.HyperTextViewer, SparkAll" />
+    <Viewer Extension="ivaud" Type="SparkAll.Viewer.Audio.AudioViewer, SparkAll" />
+  </Viewers>
+  <Editors>
+    <Editor Extension="img,rpf" Type="SparkAll.Editor.SparkAllEditor, SparkAll" />
+    <Editor Extension="" Type="SparkAll.Editor.ExternalEditor, SparkAll" />
+    <Editor Extension="wtd" Type="SparkAll.Editor.Textures.TextureEditor, SparkAll" />
+    <Editor Extension="wdr" Type="SparkAll.Editor.Textures.ModelTextureEditor, SparkAll" />
+    <Editor Extension="whm" Type="SparkAll.Editor.Textures.HyperTextTextureEditor, SparkAll" />
+  </Editors>
+</SparkAll>
