@@ -51,6 +51,8 @@ In the spirit of the open source philosophy, we encourage the community at large
 - Test.
 - Create a new pull request for the code to be reviewed. 
 
+Please do not contribute code that you do not own and if you must use another's code - please ensure that it has been released under an [appropriate license](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses).
+
 ## Contributors
 - Cathering - primary author of Spark All
 - Aru - primary author of Spark IV
