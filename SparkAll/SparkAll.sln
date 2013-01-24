@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RageLib", "RageLib", "{E2E43BBD-E2C5-47B4-AAF8-6F7E174EAB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkAll", "SparkAll.csproj", "{0997A2C9-0562-4CBB-8560-5514D6163D97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkAllOld", "..\SparkAllOld\SparkAllOld.csproj", "{0997A2C9-0562-4CBB-8560-5514D6163D97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "..\RageLib\FileSystem\FileSystem.csproj", "{7001A079-BE0E-40DD-A3AB-2AB2B6474EEA}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperText", "..\RageLib\HyperText\HyperText.csproj", "{2DCDBA6F-9941-45E5-94A4-082ACB9486FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audio", "..\RageLib\Audio\Audio.csproj", "{0D5CDB87-198D-4CD3-A06F-76AC76B7C35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkAll", "SparkAll.csproj", "{F4CB5EDE-824D-498C-AE34-0765034984C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,12 @@ Global
 		{0D5CDB87-198D-4CD3-A06F-76AC76B7C35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5CDB87-198D-4CD3-A06F-76AC76B7C35D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D5CDB87-198D-4CD3-A06F-76AC76B7C35D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4CB5EDE-824D-498C-AE34-0765034984C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CB5EDE-824D-498C-AE34-0765034984C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CB5EDE-824D-498C-AE34-0765034984C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4CB5EDE-824D-498C-AE34-0765034984C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CB5EDE-824D-498C-AE34-0765034984C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CB5EDE-824D-498C-AE34-0765034984C7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,7 +27,7 @@ using System.Reflection;
 
 namespace SparkAll
 {
-    static class Program
+   /* static class Program
     {
 
         /// <summary>
@@ -49,10 +49,10 @@ namespace SparkAll
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-             */
+             
 
             Application.Run(new MainForm());
         }
-    }
+    } */
 }
 

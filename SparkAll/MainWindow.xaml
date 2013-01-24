@@ -1,0 +1,184 @@
+﻿<Window x:Class="SparkAll.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Spark All" Height="503" Width="687">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Menu Grid.Column="0" Grid.Row="0">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open..." InputGestureText="Ctrl+O">
+                    <MenuItem.Icon>
+                        <Image Source="Images/open.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="_Save" InputGestureText="Ctrl+S">
+                    <MenuItem.Icon>
+                        <Image Source="Images/save.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="Save _As..." >
+                    <MenuItem.Icon>
+                        <Image Source="Images/save_as.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="_Close">
+                    <MenuItem.Icon>
+                        <Image Source="Images/close.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="E_xit" InputGestureText="Ctrl+Alt+X" />
+            </MenuItem>
+            
+            <MenuItem Header="_Edit">
+                
+                <MenuItem Header="_Undo" InputGestureText="Ctrl+Z" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/undo.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="_Redo" InputGestureText="Ctrl+Y" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/redo.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="Cu_t" InputGestureText="Ctrl+X" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/cut.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="_Copy" InputGestureText="Ctrl+C" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/copy.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="_Paste" InputGestureText="Ctrl+V" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/paste.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="_Delete" InputGestureText="Del" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/delete.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="_Extract" InputGestureText="Ctrl+E" />
+                <MenuItem Header="Re_place" InputGestureText="Ctrl+R" />
+                
+                <MenuItem Header="Re_name" InputGestureText="Ctrl+Alt+R" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/rename.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="Add _File" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/add_file.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="Add F_older" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/add_folder.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="Select _All" InputGestureText="Ctrl+A" >
+                    <MenuItem.Icon>
+                        <Image Source="Images/select_all.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            
+            
+            <MenuItem Header="_View">
+                <MenuItem Header="Directory _Tree" IsCheckable="True" />
+                <MenuItem Header="_Navigation Bar" IsCheckable="True" />
+            </MenuItem>
+
+            <MenuItem Header="_Tools">
+                <MenuItem Header="_Rebuild" InputGestureText="Shift+R">
+                    <MenuItem.Icon>
+                        <Image Source="Images/rebuild.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                <MenuItem Header="_Dump File Hashes" />
+                <MenuItem Header="Dump _Table of Contents" />
+                <Separator />
+
+                <MenuItem Header="_Options">
+                    <MenuItem.Icon>
+                        <Image Source="Images/options.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+
+            </MenuItem>
+
+            <MenuItem Header="_Help">
+                <MenuItem Header="View _Help" InputGestureText="F1">
+                    <MenuItem.Icon>
+                        <Image Source="Images/help.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+                
+                <MenuItem Header="_Check for Updates">
+                    <MenuItem.Icon>
+                        <Image Source="Images/update.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <MenuItem Header="_Report a Bug">
+                    <MenuItem.Icon>
+                        <Image Source="Images/bug.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <Separator />
+
+                <MenuItem Header="_About Spark All">
+                    <MenuItem.Icon>
+                        <Image Source="Images/about.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+            </MenuItem>
+        </Menu>
+        
+        
+        
+    </Grid>
+</Window>
